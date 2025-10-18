@@ -1,4 +1,3 @@
-/* Pain's Perfectly Painful non Preposterous Emporium Styles */
 :root {
     --pink: #ff8ad9;
     --blue: #8ad9ff;
@@ -18,7 +17,7 @@ html {
 }
 
 body {
-    min-height: 100%; 
+    height: 100%; 
     display: flex;
     flex-direction: column;
     background-color: var(--pink);
