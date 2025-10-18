@@ -45,7 +45,8 @@ header h1 {
 }
 
 img {
-    width: 5rem;
+    width: 120px;
+    height: auto;
     border-radius: 10px;
     margin: 10px;
 }
