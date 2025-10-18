@@ -24,7 +24,18 @@ body {
     color: var(--black);
     padding-top: 70px;
 }
+/* TODO: Body padding!!!
+TODO: Body padding!!!TODO: Body padding!!!  
+TODO: Body padding!!!TODO: Body padding!!!TODO: Body padding!!!
+TODO: Body padding!!!   
+TODO: Body padding!!!TODO: Body padding!!!
+TODO: Body padding!!!
+TODO: Body padding!!!
+TODO: Body padding!!!
+TODO: Body padding!!!
+TODO: Body padding!!!
 
+*/
 header {
     background-color: var(--black);
     color: var(--white);
@@ -70,6 +81,11 @@ list p {
     height: auto;
     border-radius: 10px;
     margin: 5px;
+}
+
+.rickrole {
+    width: 600px;
+    height: 600px;
 }
 
 nav a {
