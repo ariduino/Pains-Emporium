@@ -1,75 +1,81 @@
 /* Pain's Perfectly Painful non Preposterous Emporium Styles */
 :root {
-  --pink: #ff8ad9;
-  --blue: #8ad9ff;
-  --white: #ffffff;
-  --black: #222222;
+    --pink: #ff8ad9;
+    --blue: #8ad9ff;
+    --white: #ffffff;
+    --black: #222222;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Comic Sans MS", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+html {
+    height: 100%;
 }
 
 body {
-  background-color: var(--pink);
-  color: var(--black);
-  padding-top: 70px; /* prevents content from being hidden behind fixed header */
+    min-height: 100%; 
+    display: flex;
+    flex-direction: column;
+    background-color: var(--pink);
+    color: var(--black);
+    padding-top: 70px;
 }
 
 header {
-  background-color: var(--black);
-  color: var(--white);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 100;
+    background-color: var(--black);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
 }
 
 header h1 {
-  font-size: 1.2rem;
-  color: var(--blue);
+    font-size: 1.2rem;
+    color: var(--blue);
 }
 
 nav a {
-  color: var(--pink);
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-  transition: color 0.2s ease;
+    color: var(--pink);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.2s ease;
 }
 
 nav a:hover {
-  color: var(--white);
+    color: var(--white);
 }
 
-/* Highlighted active link */
 nav a.active {
-  text-decoration: underline;
-  color: var(--blue);
+    text-decoration: underline;
+    color: var(--blue);
 }
 
 main {
-  padding: 20px;
-  background-color: var(--white);
-  border-radius: 10px;
-  max-width: 800px;
-  margin: 40px auto;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding: 20px;
+    background-color: var(--white);
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 footer {
-  text-align: center;
-  margin-top: 40px;
-  padding: 20px;
-  background-color: var(--black);
-  color: var(--white);
-  border-top: 5px solid var(--blue);
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: var(--black);
+    color: var(--white);
+    border-top: 5px solid var(--blue);
 }
