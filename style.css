@@ -44,6 +44,10 @@ header h1 {
     color: var(--blue);
 }
 
+list {
+    margin-left: 20px;
+}
+
 list li {
     font-size: 1.2rem;
 }
@@ -55,7 +59,7 @@ list p {
 }
 
 .store {
-    width: 300px;
+    width: 400px;
     height: auto;
     border-radius: 10px;
     margin: 10px;
