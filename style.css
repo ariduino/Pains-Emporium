@@ -45,7 +45,7 @@ header h1 {
 }
 
 list li {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 list p {
@@ -53,15 +53,9 @@ list p {
     margin-top: 5px;
     margin-bottom: 15px;
 }
-/* img {
-    width: 200px;
-    height: auto;
-    border-radius: 10px;
-    margin: 10px;
-} */
 
 .store {
-    width: 200px;
+    width: 300px;
     height: auto;
     border-radius: 10px;
     margin: 10px;
