@@ -44,6 +44,12 @@ header h1 {
     color: var(--blue);
 }
 
+img {
+    width: 5rem;
+    border-radius: 10px;
+    margin: 10px;
+}
+
 nav a {
     color: var(--pink);
     text-decoration: none;
